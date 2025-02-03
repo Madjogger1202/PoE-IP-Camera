@@ -3725,6 +3725,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 74.93) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b059bf-cb1e-4fc9-958a-01d2e7b80dc1")
+	)
+	(wire
+		(pts
 			(xy 210.82 35.56) (xy 208.28 35.56)
 		)
 		(stroke
@@ -34754,6 +34764,28 @@
 		(uuid "f17321b9-8c16-4ae2-9e8c-65d78379613b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.4975 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMAC_CRS_DV"
+		(shape input)
+		(at 233.68 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8318bf5-40aa-4d17-a256-b8fb3541e0e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.6675 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
