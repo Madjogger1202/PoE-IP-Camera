@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f69916e1-cef0-4187-8742-77a6ac2806cf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 1.27 1.27)
+		(size 297.18 212.09)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a39fa2e-8038-496f-aab9-7618a98c5cff")
+		(property "Sheetname" "Power and PoE"
+			(at 1.27 0.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power and PoE.kicad_sch"
+			(at 1.27 213.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PoE-IP-Camera"
+				(path "/f69916e1-cef0-4187-8742-77a6ac2806cf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 367.03 0)
+		(size 327.66 218.44)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "957b6d2d-164a-4617-8d97-c44905bc0a53")
+		(property "Sheetname" "stm32 + eth controller"
+			(at 367.03 -0.7116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32 + eth controller.kicad_sch"
+			(at 367.03 219.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PoE-IP-Camera"
+				(path "/f69916e1-cef0-4187-8742-77a6ac2806cf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
